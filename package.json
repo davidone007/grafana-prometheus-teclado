@@ -1,0 +1,16 @@
+{
+  "name": "grafana-prometheus-teclado-app",
+  "version": "1.0.0",
+  "description": "Static keyboard practice app served with a tiny Node server and Prometheus metrics",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "prom-client": "^14.0.1"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
